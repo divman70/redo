@@ -1,14 +1,27 @@
 #main {
 
-	background: rgba(255,255,255,.7);
+	/*background: rgba(255,255,255,.7);*/
 	text-align: center;
-	padding: 25px 0;
 	margin-top: 150px;
 	border-radius: 5px;
 
 }
+.a,
+.b,
+.c {
+	background: rgba(255,255,255,.7);
+	margin: 0 15px;
+}
 
 
+/*#d {
+	padding: 25px;
+}
+*/
+/*.column {
+	background: black;
+}
+*/
 .footer {
 	background: black;
 }
