@@ -1,11 +1,9 @@
 @media (min-width: 992px) {
 	#main {
-
-	/*background: rgba(255,255,255,.7);*/
 	text-align: center;
 	margin-top: 25px;
-	border-radius: 5px;
 }
+
 
 #nav {
 	margin-top: 50px;
@@ -27,10 +25,11 @@
 .d {
 	background: rgba(255,255,255,.7);
 	margin: 0 15px;
+	border-radius: 5px;
 }
 
 .input {
-	margin-top: 50px;
+	margin-top: 95px;
 }
 
 /*#d {
