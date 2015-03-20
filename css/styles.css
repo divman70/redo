@@ -1,18 +1,102 @@
-#main {
+@media (min-width: 992px) {
+	#main {
 
 	/*background: rgba(255,255,255,.7);*/
 	text-align: center;
-	margin-top: 150px;
+	margin-top: 25px;
 	border-radius: 5px;
-
 }
+
+#nav {
+	margin-top: 50px;
+}
+
+.title {
+
+	background: rgba(255,255,255,.7);
+	text-align: center;
+	margin-top: 50px;
+	border-radius: 5px;
+	font-size: 50px;
+	padding: 25px;
+}
+
 .a,
 .b,
-.c {
+.c,
+.d {
 	background: rgba(255,255,255,.7);
 	margin: 0 15px;
 }
 
+.input {
+	margin-top: 50px;
+}
+
+/*#d {
+	padding: 25px;
+}
+*/
+/*.column {
+	background: black;
+}
+*/
+.footer {
+	background: black;
+}
+
+.warnning {
+	background: yellow;
+	border-radius: 15px;
+}
+
+.button {
+	padding: 25px;
+}
+
+h1,
+h3 {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	
+  	background-position: fixed;
+  	background: lightblue;
+}
+
+}
+
+@media (max-width: 991px) {
+	#main {
+
+	/*background: rgba(255,255,255,.7);*/
+	text-align: center;
+	margin-top: 25px;
+	border-radius: 5px;
+}
+
+.title {
+
+	background: rgba(255,255,255,.7);
+	text-align: center;
+	margin-top: 50px;
+	border-radius: 5px;
+	font-size: 50px;
+	padding: 25px;
+}
+
+.a,
+.b,
+.c,
+.d {
+	background: rgba(255,255,255,.7);
+	margin: 0 15px;
+}
+
+.input {
+	margin-top: 50px;
+}
 
 /*#d {
 	padding: 25px;
@@ -42,11 +126,84 @@ h3 {
 
 body {
 	/*get background picture of car to use as main background or mountains n stuff*/
-	background-image: url('../img/road.jpg');
+	/*background-image: url('../img/road.jpg');
 	background-size: 100%;
   	background-repeat: no-repeat;
   	background-position: center;
-  	background-attachment: fixed;
+  	background-attachment: fixed;*/
+  	background: lightblue;
 }
+
+}
+
+@media (max-width: 480px) {
+	#main {
+
+	/*background: rgba(255,255,255,.7);*/
+	text-align: center;
+	margin-top: 25px;
+	border-radius: 5px;
+}
+
+.title {
+
+	background: rgba(255,255,255,.7);
+	text-align: center;
+	margin-top: 50px;
+	border-radius: 5px;
+	font-size: 50px;
+	padding: 25px;
+}
+
+.a,
+.b,
+.c,
+.d {
+	background: rgba(255,255,255,.7);
+	margin: 0 15px;
+}
+
+.input {
+	margin-top: 50px;
+}
+
+/*#d {
+	padding: 25px;
+}
+*/
+/*.column {
+	background: black;
+}
+*/
+.footer {
+	background: black;
+}
+
+.warnning {
+	background: yellow;
+	border-radius: 15px;
+}
+
+.button {
+	padding: 25px;
+}
+
+h1,
+h3 {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	/*get background picture of car to use as main background or mountains n stuff*/
+	/*background-image: url('../img/road.jpg');
+	background-size: 100%;
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	background-attachment: fixed;*/
+  	background: lightblue;
+}
+
+}
+
 
 
